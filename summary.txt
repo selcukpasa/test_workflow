@@ -1,0 +1,12 @@
+output_file	date	rule	version	log-file(s)	status	plan
+plots/quals.svg	Mon Aug 28 09:04:39 2023	plot_quals	-		ok	no update
+calls/all.vcf	Mon Aug 28 09:04:39 2023	bcftools_call	-	logs/bcftools_call/all.log	ok	no update
+sorted_reads/A.bam	Mon Aug 28 09:04:38 2023	samtools_sort	-		ok	no update
+mapped_reads/A.bam	Mon Aug 28 09:04:38 2023	bwa_map	-	logs/bwa_mem/A.log	ok	no update
+sorted_reads/B.bam	Mon Aug 28 09:04:38 2023	samtools_sort	-		ok	no update
+mapped_reads/B.bam	Mon Aug 28 09:04:38 2023	bwa_map	-	logs/bwa_mem/B.log	ok	no update
+sorted_reads/C.bam	Mon Aug 28 09:04:38 2023	samtools_sort	-		ok	no update
+mapped_reads/C.bam	Mon Aug 28 09:04:37 2023	bwa_map	-	logs/bwa_mem/C.log	ok	no update
+sorted_reads/A.bam.bai	Mon Aug 28 09:04:38 2023	samtools_index	-		ok	no update
+sorted_reads/B.bam.bai	Mon Aug 28 09:04:38 2023	samtools_index	-		ok	no update
+sorted_reads/C.bam.bai	Mon Aug 28 09:04:38 2023	samtools_index	-		ok	no update
